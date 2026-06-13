@@ -1,0 +1,42 @@
+:root {
+    --uteq-green: #004a2f;
+    --uteq-yellow: #ffcc00;
+}
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: var(--uteq-green);
+    border-bottom: 4px solid var(--uteq-yellow);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.btn-uteq {
+    background-color: var(--uteq-green);
+    color: white;
+    border: none;
+}
+
+.btn-uteq:hover {
+    background-color: #003320;
+    color: white;
+}
+
+.table thead {
+    background-color: var(--uteq-green);
+    color: white;
+}
+
+.badge-stock {
+    padding: 0.5em 0.8em;
+    border-radius: 20px;
+}
